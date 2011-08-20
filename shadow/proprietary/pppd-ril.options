@@ -12,6 +12,8 @@ password NotUsed
 crtscts
 lcp-echo-failure 0
 lcp-echo-interval 0
+ipcp-max-configure 30
+ipcp-max-failure 30
+ipcp-max-terminate 10
 novj
 linkname ril
-
