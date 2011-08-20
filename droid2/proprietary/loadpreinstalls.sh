@@ -1,7 +1,7 @@
 #!/system/bin/sh
 export PATH=/system/bin:$PATH
-PRELOAD_APP_DIR=/preinstall/app
-PRELOAD_HASH_DIR=/preinstall/md5
+PRELOAD_APP_DIR=/system/preinstall/app
+PRELOAD_HASH_DIR=/system/preinstall/md5
 DATA_HASH_DIR=/data/preinstall_md5
 PRELOAD_DONE_PROP=preinstall.done
 PRELOAD_LOG_FILE=$DATA_HASH_DIR/log.txt
@@ -14,14 +14,21 @@ for file in `ls $PRELOAD_APP_DIR`; do
     newMD5=`cat $PRELOAD_HASH_DIR/$file.md5`
     oldMD5=`cat $DATA_HASH_DIR/$file.md5`
     if [ "$newMD5" != "$oldMD5" ]; then
-        pm install -r $PRELOAD_APP_DIR/$file
-        ret=$?
-        if [ $ret -ne 0 ]; then
-            echo "$file: install failed, error: $ret"
-            echo "$file: install failed, error: $ret" >> $PRELOAD_LOG_FILE
+        isInstalled=`pm path $file`
+        if [ -n "$isInstalled" -o ! -e "$DATA_HASH_DIR/$file.md5" ]; then
+            pm install -r $PRELOAD_APP_DIR/$file
+            ret=$?
+            if [ $ret -ne 0 ]; then
+                echo "$file: install failed, error: $ret"
+                echo "$file: install failed, error: $ret" >> $PRELOAD_LOG_FILE
+            else
+                echo "$file: install successful, copying $file.md5 to $DATA_HASH_DIR"
+                echo "$file: install successful, copying $file.md5 to $DATA_HASH_DIR" >> $PRELOAD_LOG_FILE
+                cp $PRELOAD_HASH_DIR/$file.md5 $DATA_HASH_DIR
+            fi
         else
-            echo "$file: install successful, copying $file.md5 to $DATA_HASH_DIR"
-            echo "$file: install successful, copying $file.md5 to $DATA_HASH_DIR" >> $PRELOAD_LOG_FILE
+            echo "$file: user has uninstalled, dont reinstall. copying $file.md5 to $DATA_HASH_DIR"
+            echo "$file: user has uninstalled, dont reinstall. copying $file.md5 to $DATA_HASH_DIR" >> $PRELOAD_LOG_FILE
             cp $PRELOAD_HASH_DIR/$file.md5 $DATA_HASH_DIR
         fi
     else
