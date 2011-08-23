@@ -242,6 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/libbattd.so:/system/lib/libattd.so \
     vendor/motorola/droid2we/proprietary/battd.so:/system/bin/battd \
     vendor/motorola/droid2we/proprietary/libusc.so:/system/lib/libusc.so \
-    vendor/motorola/droid2we/proprietary/lights.droid2we.so:/system/lib/hw/lights.droid2we.so
+    vendor/motorola/droid2we/proprietary/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
     vendor/motorola/droid2we/proprietary/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so
 
