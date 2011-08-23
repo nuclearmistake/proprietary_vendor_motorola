@@ -99,8 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/droid2we/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
     vendor/motorola/droid2we/proprietary/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
-    vendor/motorola/droid2we/proprietary/tiwlan_1.ini:/system/etc/wifi/tiwlan_1.ini \
-    vendor/motorola/droid2we/proprietary/tiwlan_2.ini:/system/etc/wifi/tiwlan_2.ini \
     vendor/motorola/droid2we/proprietary/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
     vendor/motorola/droid2we/proprietary/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/droid2we/proprietary/baseimage.dof:/system/lib/dsp/baseimage.dof \
@@ -141,8 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
     vendor/motorola/droid2we/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/droid2we/proprietary/libWifiAPNativeJni.so:/system/lib/libWifiAPNativeJni.so \
-    vendor/motorola/droid2we/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
+    vendor/motorola/droid2we/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/libbattd.so:/system/lib/libbattd.so \
     vendor/motorola/droid2we/proprietary/libcaps.so:/system/lib/libcaps.so \
     vendor/motorola/droid2we/proprietary/libcryptoki.so:/system/lib/libcryptoki.so \
@@ -207,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/libui3d.so:/system/lib/libui3d.so \
     vendor/motorola/droid2we/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
     vendor/motorola/droid2we/proprietary/libvisualization_jni.so:/system/lib/libvisualization_jni.so \
-    vendor/motorola/droid2we/proprietary/libvsuite_sharedlib.so:/system/lib/libvsuite_sharedlib.so \
     vendor/motorola/droid2we/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
     vendor/motorola/droid2we/proprietary/ulogd_BASE.so:/system/lib/ulogd_BASE.so \
     vendor/motorola/droid2we/proprietary/ulogd_SQLITE3.so:/system/lib/ulogd_SQLITE3.so \
@@ -216,7 +213,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
     vendor/motorola/droid2we/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
     vendor/motorola/droid2we/proprietary/cdma_droid2we-keypad.kcm.bin:/system/usr/keychars/cdma_droid2we-keypad.kcm.bin \
+    vendor/motorola/droid2we/proprietary/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
+    vendor/motorola/droid2we/proprietary/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
     vendor/motorola/droid2we/proprietary/cdma_droid2we-keypad.kl:/system/usr/keylayout/cdma_droid2we-keypad.kl \
+    vendor/motorola/droid2we/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
     vendor/motorola/droid2we/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/droid2we/proprietary/backup:/system/xbin/backup \
     vendor/motorola/droid2we/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
@@ -233,14 +233,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/droid2we/proprietary/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/droid2we/proprietary/libbridge.so:/system/lib/libbridge.so \
-    vendor/motorola/droid2we/proprietary/libLCML.so:/system/lib/libLCML.soi \
-    vendor/motorola/droid2we/proprietary/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
-    vendor/motorola/droid2we/proprietary/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
-    vendor/motorola/droid2we/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
-    vendor/motorola/droid2we/proprietary/cdma_droid2we-keypad.kcm.bin:/system/usr/keychars/cdma_droid2we-keypad.kcm.bin \
-    vendor/motorola/droid2we/proprietary/cdma_droid2we-keypad.kl:/system/usr/keychars/cdma_droid2we-keypad.kl \
-    vendor/motorola/droid2we/proprietary/gps.droid2we.so:/system/lib/hw/gps.droid2we.so \
-    vendor/motorola/droid2we/proprietary/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
-    vendor/motorola/droid2we/proprietary/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so \
-    vendor/motorola/droid2we/proprietary/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
-    vendor/motorola/droid2we/proprietary/libstagefright.so:/system/lib/libstagefright.so
+    vendor/motorola/droid2we/proprietary/libLCML.so:/system/lib/libLCML.so \
+    vendor/motorola/droid2we/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
+    vendor/motorola/droid2we/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
+    vendor/motorola/droid2we/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+    vendor/motorola/droid2we/proprietary/libril.so:/system/lib/libril.so \
+    vendor/motorola/droid2we/proprietary/libril_rds.so:/system/lib/libril_rds.so \
+    vendor/motorola/droid2we/proprietary/libbattd.so:/system/lib/libattd.so \
+    vendor/motorola/droid2we/proprietary/battd.so:/system/bin/battd \
+    vendor/motorola/droid2we/proprietary/libusc.so:/system/lib/libusc.so \
+    vendor/motorola/droid2we/proprietary/lights.droid2we.so:/system/lib/hw/lights.droid2we.so
+    vendor/motorola/droid2we/proprietary/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so
+
