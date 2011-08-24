@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/droid2/proprietary/libril_rds.so:obj/lib/libril_rds.so \
     vendor/motorola/droid2/proprietary/librds_util.so:obj/lib/librds_util.so \
     vendor/motorola/droid2/proprietary/libsmiledetect.so:obj/lib/libsmiledetect.so \
-    vendor/motorola/droid2/proprietary/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
+    vendor/motorola/droid2/proprietary/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so \
+    vendor/motorola/droid2/proprietary/overlay.omap3.so:obj/lib/hw/overlay.omap3.so
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
@@ -261,5 +262,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/libstagefright.so:/system/lib/libstagefright.so \
     vendor/motorola/droid2/proprietary/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
     vendor/motorola/droid2/proprietary/cameraCalFileDef.bin:/system/etc/cameraCalFileDef.bin \
-    vendor/motorola/droid2/proprietary/libusc.so:/system/lib/libusc.so
+    vendor/motorola/droid2/proprietary/libusc.so:/system/lib/libusc.so \
+    vendor/motorola/droid2/proprietary/overlay.omap3.so:/system/lib/hw/overlay.omap3.so
 
