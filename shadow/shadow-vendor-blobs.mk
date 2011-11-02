@@ -212,5 +212,62 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/hw/lights.shadow.so:/system/lib/hw/lights.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/sensors.shadow.so:/system/lib/hw/sensors.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so \
-    vendor/motorola/shadow/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so
-
+    vendor/motorola/shadow/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so \
+    vendor/motorola/shadow/proprietary/lib/libHPImgApi.so:/system/lib/libHPImgApi.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.Video.Decoder.so:/system/lib/libOMX.TI.Video.Decoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.Video.encoder.so:/system/lib/libOMX.TI.Video.encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:/system/lib/libOMX.TI.h264.splt.Encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:/system/lib/libOMX.TI.mp4.splt.Encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
+    vendor/motorola/shadow/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
+    vendor/motorola/shadow/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so \
+    vendor/motorola/shadow/proprietary/lib/libarcaudiogetinfo.so:/system/lib/libarcaudiogetinfo.so \
+    vendor/motorola/shadow/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libarcplatform.so:/system/lib/libarcplatform.so \
+    vendor/motorola/shadow/proprietary/lib/libarcstagefright.so:/system/lib/libarcstagefright.so \
+    vendor/motorola/shadow/proprietary/lib/libbinder.so:/system/lib/libbinder.so \
+    vendor/motorola/shadow/proprietary/lib/libc.so:/system/lib/libc.so \
+    vendor/motorola/shadow/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
+    vendor/motorola/shadow/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+    vendor/motorola/shadow/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_author.so:/system/lib/libopencore_author.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_common.so:/system/lib/libopencore_common.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_download.so:/system/lib/libopencore_download.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_net_support.so:/system/lib/libopencore_net_support.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_player.so:/system/lib/libopencore_player.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_rtsp.so:/system/lib/libopencore_rtsp.so \
+    vendor/motorola/shadow/proprietary/lib/libopencore_rtspreg.so:/system/lib/libopencore_rtspreg.so \
+    vendor/motorola/shadow/proprietary/lib/libopencorehw.so:/system/lib/libopencorehw.so \
+    vendor/motorola/shadow/proprietary/lib/libstagefright.so:/system/lib/libstagefright.so \
+    vendor/motorola/shadow/proprietary/lib/libstagefright_color_conversion.so:/system/lib/libstagefright_color_conversion.so \
+    vendor/motorola/shadow/proprietary/lib/libstagefright_omx.so:/system/lib/libstagefright_omx.so \
+    vendor/motorola/shadow/proprietary/lib/libstagefrighthw.so:/system/lib/libstagefrighthw.so \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264vdec_sn.dll64P:/system/lib/dsp/720p_h264vdec_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264venc_sn.dll64P:/system/lib/dsp/720p_h264venc_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_mp4vdec_sn.dll64P:/system/lib/dsp/720p_mp4vdec_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_mp4venc_sn.dll64P:/system/lib/dsp/720p_mp4venc_sn.dll64P
