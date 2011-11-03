@@ -100,7 +100,6 @@ vendor/motorola/targa/proprietary/supportedlocales.conf:/system/etc/supportedloc
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
-vendor/motorola/targa/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
 vendor/motorola/targa/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 vendor/motorola/targa/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/targa/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
