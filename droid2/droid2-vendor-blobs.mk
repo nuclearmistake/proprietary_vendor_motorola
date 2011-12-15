@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/bin/pppd:/system/bin/pppd \
     vendor/motorola/droid2/proprietary/bin/pppd-ril:/system/bin/pppd-ril \
     vendor/motorola/droid2/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
+    vendor/motorola/droid2/proprietary/bin/rild:/system/bin/rild \
     vendor/motorola/droid2/proprietary/bin/secclkd:/system/bin/secclkd \
     vendor/motorola/droid2/proprietary/bin/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
     vendor/motorola/droid2/proprietary/bin/smoduled:/system/bin/smoduled \
@@ -122,6 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/lib/egl/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
     vendor/motorola/droid2/proprietary/lib/egl/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
     vendor/motorola/droid2/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
+    vendor/motorola/droid2/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so \
+    vendor/motorola/droid2/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/motorola/droid2/proprietary/lib/libHPImgApi.so:/system/lib/libHPImgApi.so \
     vendor/motorola/droid2/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/droid2/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
