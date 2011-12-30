@@ -35,6 +35,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/rild:/system/bin/rild \
     vendor/motorola/droid2we/proprietary/bin/motorild:/system/bin/motorild \
+	vendor/motorola/droid2we/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_evrdec_sharedlibrary.so:/system/lib/libarcomx_evrdec_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
+	vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
+	vendor/motorola/droid2we/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
+	vendor/motorola/droid2we/proprietary/lib/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
+	vendor/motorola/droid2we/proprietary/lib/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
