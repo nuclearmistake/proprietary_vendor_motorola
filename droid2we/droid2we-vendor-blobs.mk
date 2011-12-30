@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/rild:/system/bin/rild \
     vendor/motorola/droid2we/proprietary/bin/motorild:/system/bin/motorild \
     vendor/motorola/droid2we/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcomx_evrdec_sharedlibrary.so:/system/lib/libarcomx_evrdec_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
     vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
     vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
     vendor/motorola/droid2we/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
