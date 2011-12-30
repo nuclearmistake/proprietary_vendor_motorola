@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for droid2we
 PRODUCT_COPY_FILES += \
+    vendor/motorola/droid2we/proprietary/bin/rild:/system/bin/rild \
+    vendor/motorola/droid2we/proprietary/bin/motorild:/system/bin/motorild \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
@@ -181,11 +183,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/tts/lang_pico/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
     vendor/motorola/droid2we/proprietary/tts/lang_pico/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
     vendor/motorola/droid2we/proprietary/tts/lang_pico/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
-    vendor/motorola/droid2we/proprietary/usr/keychars/cdma_droid2we-keypad.kcm.bin:/system/usr/keychars/cdma_droid2we-keypad.kcm.bin \
-    vendor/motorola/droid2we/proprietary/usr/keychars/cdma_droid2we-keypad.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
-    vendor/motorola/droid2we/proprietary/usr/keychars/cdma_droid2we-keypad.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
-    vendor/motorola/droid2we/proprietary/usr/keylayout/cdma_droid2we-keypad.kl:/system/usr/keylayout/cdma_droid2we-keypad.kl \
-    vendor/motorola/droid2we/proprietary/usr/keylayout/cdma_droid2we-keypad.kl:/system/usr/keylayout/qwerty.kl \
+    vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/sholes-keypad.kcm.bin \
+    vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
+    vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
+    vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/sholes-keypad.kl \
+    vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/qwerty.kl \
     vendor/motorola/droid2we/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/droid2we/proprietary/xbin/backup:/system/xbin/backup \
     vendor/motorola/droid2we/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
