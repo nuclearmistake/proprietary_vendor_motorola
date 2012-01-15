@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for droid2we
 PRODUCT_COPY_FILES += \
+    vendor/motorola/droid2we/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
