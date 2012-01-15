@@ -33,15 +33,6 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for droid2we
 PRODUCT_COPY_FILES += \
-    vendor/motorola/droid2we/proprietary/bin/rild:/system/bin/rild \
-    vendor/motorola/droid2we/proprietary/bin/motorild:/system/bin/motorild \
-    vendor/motorola/droid2we/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
-    vendor/motorola/droid2we/proprietary/lib/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
-    vendor/motorola/droid2we/proprietary/lib/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
@@ -53,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/btcmd:/system/bin/btcmd \
     vendor/motorola/droid2we/proprietary/bin/bthelp:/system/bin/bthelp \
     vendor/motorola/droid2we/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/droid2we/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/droid2we/proprietary/bin/chat-ril:/system/bin/chat-ril \
     vendor/motorola/droid2we/proprietary/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
     vendor/motorola/droid2we/proprietary/bin/dmt:/system/bin/dmt \
@@ -167,6 +157,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
     vendor/motorola/droid2we/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/droid2we/proprietary/lib/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
+    vendor/motorola/droid2we/proprietary/lib/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
+    vendor/motorola/droid2we/proprietary/lib/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
+    vendor/motorola/droid2we/proprietary/lib/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
     vendor/motorola/droid2we/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/motorola/droid2we/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
     vendor/motorola/droid2we/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
@@ -193,10 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/sholes-keypad.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
-	vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qtouch-touchscreen.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/sholes-keypad.kl \
     vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/qwerty.kl \
-	vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/qtouch-touchscreen.kl \
     vendor/motorola/droid2we/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/droid2we/proprietary/xbin/backup:/system/xbin/backup \
     vendor/motorola/droid2we/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
