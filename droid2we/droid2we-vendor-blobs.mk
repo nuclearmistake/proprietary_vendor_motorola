@@ -190,9 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/tts/lang_pico/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
     vendor/motorola/droid2we/proprietary/tts/lang_pico/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/sholes-keypad.kcm.bin \
+    vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qtouch-touchscreen.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
     vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/sholes-keypad.kl \
+    vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/qtouch-touchscreen.kl \
     vendor/motorola/droid2we/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/qwerty.kl \
     vendor/motorola/droid2we/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/droid2we/proprietary/xbin/backup:/system/xbin/backup \
