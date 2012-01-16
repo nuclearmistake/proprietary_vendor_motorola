@@ -16,6 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    vendor/motorola/droid2we/proprietary/bin/rild:/system/bin/rild \
+    vendor/motorola/droid2we/proprietary/bin/motorild:/system/bin/motorild \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
