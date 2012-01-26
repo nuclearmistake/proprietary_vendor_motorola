@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/droid2we/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/droid2we/proprietary/app/Camera.apk:/system/app/Camera.apk
+    vendor/motorola/droid2we/proprietary/app/Camera.apk:/system/app/Camera.apk \
 
 # All the blobs necessary for droid2we
 PRODUCT_COPY_FILES += \
@@ -207,7 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/xbin/run_restore:/system/xbin/run_restore \
     vendor/motorola/droid2we/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
-    vendor/motorola/droid2we/proprietary/lib/libcamera.so:/system/lib/libcamera.so \gin
+    vendor/motorola/droid2we/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/droid2we/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
     vendor/motorola/droid2we/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
