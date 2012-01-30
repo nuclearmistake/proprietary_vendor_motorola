@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
+    vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:obj/lib/libmoto_ril.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
@@ -27,7 +28,12 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/droid2we/proprietary/lib/libril_rds.so:obj/lib/libril_rds.so \
     vendor/motorola/droid2we/proprietary/lib/librds_util.so:obj/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libsmiledetect.so:obj/lib/libsmiledetect.so \
-    vendor/motorola/droid2we/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
+    vendor/motorola/droid2we/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/gralloc.default.so:obj/lib/hw/gralloc.default.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so
+ 
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
@@ -125,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/egl/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
     vendor/motorola/droid2we/proprietary/lib/egl/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
     vendor/motorola/droid2we/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/gralloc.default.so:/system/lib/hw/gralloc.default.so \
     vendor/motorola/droid2we/proprietary/lib/libHPImgApi.so:/system/lib/libHPImgApi.so \
     vendor/motorola/droid2we/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/droid2we/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
