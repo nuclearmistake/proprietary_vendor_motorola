@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/droid2we/proprietary/lib/libmotdrm1_jni.so:obj/lib/libmotdrm1_jni.so \
     vendor/motorola/droid2we/proprietary/lib/libmotdrm1.so:obj/lib/libmotdrm1.so \
     vendor/motorola/droid2we/proprietary/lib/libmot_led.so:obj/lib/libmot_led.so \
-    vendor/motorola/droid2we/proprietary/lib/libmotdbgutils.so:obj/lib/libmotodbgutils.so \
+    vendor/motorola/droid2we/proprietary/lib/libmotodbgutils.so:obj/lib/libmotodbgutils.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_netutil.so:obj/lib/libmoto_netutil.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
