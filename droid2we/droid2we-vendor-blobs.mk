@@ -264,19 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/hw/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so \
-    vendor/motorola/droid2we/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so
-
-libmot_atcmd_mflex.so
-libmot_atcmd.so
-libmot_bluetooth_jni.so
-libmot_btpan_jni.so
-libmotdrm1_jni.so
-libmotdrm1.so
-libmot_led.so
-libmotodbgutils.so
-libmoto_gps.so
-libmoto_netutil.so
-libmoto_ril.so
+    vendor/motorola/droid2we/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/motorola/droid2we/proprietary/lib/libcameraservice.so:obj/lib/libcameraservice.so \
